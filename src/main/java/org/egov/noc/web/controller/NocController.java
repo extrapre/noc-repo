@@ -197,7 +197,7 @@ public class NocController {
 	public ResponseEntity<?> getcolumnsRemarks(@RequestBody RequestData requestData, BindingResult bindingResult) {
 
 		log.debug("getcolumns Remarks Request:" + requestData);
-		Errors res = null;
+		
 		Errors response = userUtil.validateUser(requestData);
 		if (response.getError().getMessage().equals("success")) {
 			log.debug("Get Remarks :" + requestData.getDataPayload());
