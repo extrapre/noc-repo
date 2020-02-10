@@ -1,8 +1,5 @@
 package org.egov.noc.model;
 
-import java.util.Date;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

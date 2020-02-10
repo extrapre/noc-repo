@@ -1,9 +1,7 @@
 package org.egov.noc.web.contract;
 import java.util.ArrayList;
-import java.util.List;
 
 import org.egov.common.contract.response.ResponseInfo;
-import org.egov.noc.model.NOCApplicationDetail;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

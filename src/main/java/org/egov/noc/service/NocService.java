@@ -1,24 +1,19 @@
 package org.egov.noc.service;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
-import java.util.UUID;
 import java.util.regex.Pattern;
 
-import org.egov.common.contract.request.RequestInfo;
 import org.egov.common.contract.request.Role;
 import org.egov.common.contract.response.ResponseInfo;
 import org.egov.noc.config.ApplicationProperties;
 import org.egov.noc.model.ErrorResponseInfo;
 import org.egov.noc.model.Errors;
-import org.egov.noc.model.NOCApplication;
 import org.egov.noc.model.NOCApplicationDetail;
-import org.egov.noc.model.NOCDetailsRequestData;
-import org.egov.noc.model.NOCRequestData;
+
 import org.egov.noc.model.RequestData;
 import org.egov.noc.repository.NocRepository;
-import org.egov.noc.repository.querybuilder.QueryBuilder;
+
 import org.egov.noc.web.contract.NocResponse;
 import org.egov.noc.web.contract.ReponseData;
 import org.egov.noc.web.contract.factory.ResponseFactory;
