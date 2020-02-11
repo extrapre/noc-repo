@@ -34,13 +34,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class NocService {
 
-	
-	@Autowired
-	private KafkaTemplate<String, Object> kafkaTemplate;
-
-	@Autowired
-	private ApplicationProperties appProps;
-
 	@Autowired
 	private NocRepository nocRepository;
 
